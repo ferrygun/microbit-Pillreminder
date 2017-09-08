@@ -31,8 +31,8 @@ function CheckStatus() {
   var payload;
   var options;
   var sendstatus;
-  var threshold = 1; //1*60*1000;
-  var URL= 'http://1d91e449.ngrok.io/webhook';
+  var threshold = 1*60*1000;
+  var URL= 'http://xxxxx.ngrok.io/webhook';
   
   for(n=2;n<=log.getLastRow();++n){ 
  
@@ -62,7 +62,4 @@ function CheckStatus() {
         break;
     }
   }
-
-
- 
 }
