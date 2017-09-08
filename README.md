@@ -1,5 +1,5 @@
 # Pill Reminder Sensor 
-# with micro:bit, Google Sheets and NodeJS
+with micro:bit, Google Sheets and NodeJS
 
 
 1. The schedule time is entered in Google Sheets, column "InputTime"
